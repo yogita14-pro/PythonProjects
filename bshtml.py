@@ -81,4 +81,4 @@ df = pd.DataFrame(dict)
 print(df)
 
 # Creating csv file
-df.to_csv('TopBestSellersonAmazon.csv')
+df.to_json('TopBestSellersonAmazon.json')
